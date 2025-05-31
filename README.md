@@ -6,6 +6,7 @@ A collection of Unity scripts for dynamic image and video playback, focusing on 
 
 ### 🖼️ `Slide Images`
 **Sequential and Random Image Playback**
+
 <img src="README/1.gif" alt="Screenshot" width="50%" />
 
 Displays images from a Resources folder in either **sequential order** or randomized, creating a dynamic and ever-changing scene.
@@ -21,6 +22,7 @@ Displays images from a Resources folder in either **sequential order** or random
 
 ### 🎲 `Grid Images`
 **Dynamic Grid of Random Images**
+
 <img src="README/2.gif" alt="Screenshot" width="50%" />
 
 Creates a **5×5 grid** of planes, each displaying a random image from a Resources folder. Images update frequently, creating a lively, mosaic-like visual.
@@ -36,6 +38,7 @@ Creates a **5×5 grid** of planes, each displaying a random image from a Resourc
 
 ### 🎥 `Grid Videos (16:9)`
 **Adaptive Video Grid**
+
 <img src="README/3.gif" alt="Screenshot" width="50%" />
 
 Generates a **dynamic grid** of video clips that adapts to different aspect ratios. Videos are pulled from a Resources folder and played in grid cells that automatically fill the canvas.
@@ -51,6 +54,7 @@ Generates a **dynamic grid** of video clips that adapts to different aspect rati
 
 ### 🌄 `Image Splitter`
 **Randomized Image Splitter with Shader Control**
+
 <img src="README/4.gif" alt="Screenshot" width="50%" />
 
 Splits a region into sections, assigning each section a random image from a folder. Uses Perlin noise to animate rotation for a smooth, organic feel.
