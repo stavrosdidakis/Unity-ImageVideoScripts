@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _ImageA:
-        m_Texture: {fileID: 2800000, guid: 9ad4c1a3322c94e599df1661a5911d86, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7a87f2c828d4c41ef9c9e808d3a3538f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ImageB:
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ImageC:
-        m_Texture: {fileID: 2800000, guid: 9ad4c1a3322c94e599df1661a5911d86, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7c4b801b5cd434dff9aa46b224957b0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -41,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Angle: 14.635963
+    - _Angle: -9.528658
     - _Angle1: 179.1
     - _Angle2: -0.1
     m_Colors: []

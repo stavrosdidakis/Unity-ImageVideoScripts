@@ -29,14 +29,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ChromAberrAmountX: 0.0076460363
-    - _ChromAberrAmountY: 0.010319812
-    - _LeftStripesAmount: 7.4019437
-    - _LeftStripesFill: 0.014944277
-    - _RightStripesAmount: 7.8055234
-    - _RightStripesFill: 0.1977889
-    - _WavyDisplFreq: 15.6007395
+    - _ChromAberrAmountX: 0.004186834
+    - _ChromAberrAmountY: 0.0058214925
+    - _LeftStripesAmount: 4.2643776
+    - _LeftStripesFill: 0.2091244
+    - _RightStripesAmount: 7.3391595
+    - _RightStripesFill: 0.43534943
+    - _WavyDisplFreq: 9.3934355
     m_Colors:
-    - _DisplacementAmount: {r: 0.018472388, g: 0.002485542, b: 0.014715779, a: 0.0026209666}
+    - _DisplacementAmount: {r: 0.005967968, g: 0.00862299, b: 0.0064835586, a: 0.0072451923}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

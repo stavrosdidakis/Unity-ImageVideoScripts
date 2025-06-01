@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planePrefab: {fileID: 8375148507933865620}
   gridSize: 5
+  resourcesFolderName: ImagesSquare
 --- !u!4 &1400479990
 Transform:
   m_ObjectHideFlags: 0
@@ -252,7 +253,7 @@ Transform:
   m_GameObject: {fileID: 1812818871}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 15.5, y: 32.5, z: 15.5}
+  m_LocalPosition: {x: 15.5, y: 18.5, z: 15.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
