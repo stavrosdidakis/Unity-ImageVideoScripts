@@ -1,13 +1,11 @@
-
 # Unity-ImageVideoScripts
-A collection of Unity scripts for dynamic image and video playback, focusing on interactive and generative visuals.
+
+A collection of Unity scripts and shaders for dynamic image, video, and generative visual effects. This repository focuses on interactive media, real-time visuals, and artistic experiments.
 
 ---
 
 ### 🖼️ `Slide Images`
 **Sequential and Random Image Playback**
-
-<img src="README/1.gif" alt="Screenshot" width="50%" />
 
 Displays images from a Resources folder in either **sequential order** or randomized, creating a dynamic and ever-changing scene.
 
@@ -23,8 +21,6 @@ Displays images from a Resources folder in either **sequential order** or random
 ### 🎲 `Grid Images`
 **Dynamic Grid of Random Images**
 
-<img src="README/2.gif" alt="Screenshot" width="50%" />
-
 Creates a **5×5 grid** of planes, each displaying a random image from a Resources folder. Images update frequently, creating a lively, mosaic-like visual.
 
 ```csharp
@@ -38,8 +34,6 @@ Creates a **5×5 grid** of planes, each displaying a random image from a Resourc
 
 ### 🎥 `Grid Videos (16:9)`
 **Adaptive Video Grid**
-
-<img src="README/3.gif" alt="Screenshot" width="50%" />
 
 Generates a **dynamic grid** of video clips that adapts to different aspect ratios. Videos are pulled from a Resources folder and played in grid cells that automatically fill the canvas.
 
@@ -55,8 +49,6 @@ Generates a **dynamic grid** of video clips that adapts to different aspect rati
 ### 🌄 `Image Splitter`
 **Randomized Image Splitter with Shader Control**
 
-<img src="README/4.gif" alt="Screenshot" width="50%" />
-
 Splits a region into sections, assigning each section a random image from a folder. Uses Perlin noise to animate rotation for a smooth, organic feel.
 
 ```csharp
@@ -68,8 +60,36 @@ Splits a region into sections, assigning each section a random image from a fold
 
 ---
 
+### 🌀 `Tunnel`
+**Twisting Tunnel Video Effect Shader**
+
+A **real-time shader** that maps a video texture onto a twisting tunnel effect. The tunnel moves forward and rotates over time for a mesmerizing flow.
+
+```glsl
+// Shader Features:
+- Video texture mapped as a twisting tunnel
+- Adjustable tunnel size, speed, and twist frequency
+- Dynamic animation for captivating visuals
+```
+
+---
+
+### ⚡ `Glitch Randomizer`
+**Glitchy Chromatic Aberration and Stripes Shader**
+
+A dynamic glitch shader that **randomly applies** chromatic aberration, wavy displacement, and alternating stripes to create intense glitchy visuals.
+
+```glsl
+// Shader Features:
+- Chromatic aberration with adjustable displacement
+- Animated wavy distortions and stripe glitches
+- Randomized patterns for a constantly evolving glitch aesthetic
+```
+
+---
+
 ## Contributing
-These scripts are for educational and creative experimentation. Feel free to fork, adapt, and use them in your own generative art or interactive projects!
+These scripts and shaders are shared for educational and creative experimentation. Feel free to **fork**, **adapt**, and integrate them into your own generative art or interactive projects.
 
 ---
 
