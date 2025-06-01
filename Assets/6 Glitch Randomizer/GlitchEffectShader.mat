@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GlitchEffectShader
+  m_Shader: {fileID: 4800000, guid: 810b7cd9ea26140cdbd089391da711e3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: 723500b1884b94608893a528a1843066, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromAberrAmountX: 0.0076460363
+    - _ChromAberrAmountY: 0.010319812
+    - _LeftStripesAmount: 7.4019437
+    - _LeftStripesFill: 0.014944277
+    - _RightStripesAmount: 7.8055234
+    - _RightStripesFill: 0.1977889
+    - _WavyDisplFreq: 15.6007395
+    m_Colors:
+    - _DisplacementAmount: {r: 0.018472388, g: 0.002485542, b: 0.014715779, a: 0.0026209666}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -49,12 +49,18 @@
   <ItemGroup>
     <Compile Include="Assets/2 Grid Images/GridManager.cs" />
     <Compile Include="Assets/4 ImageSplitter/ImageSplitter.cs" />
+    <Compile Include="Assets/5 Tunnel/TunnelActivator.cs" />
+    <Compile Include="Assets/6 Glitch Randomizer/GlitchRandomizer.cs" />
     <Compile Include="Assets/1 SlideImages/RandomImageDisplay.cs" />
     <Compile Include="Assets/3 Grid Videos 16-9/GridManager169.cs" />
     <Compile Include="Assets/1 SlideImages/SequentialImageDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/6 Glitch Randomizer/Glitch.shader" />
+    <None Include="Assets/5 Tunnel/TwistingTunnel.shader" />
     <None Include="Assets/4 ImageSplitter/ThreeWayImageSplitter.shader" />
+    <None Include="Assets/5 Tunnel/VortexTunnel.shader" />
+    <None Include="Assets/5 Tunnel/PolarTunnelURP.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
